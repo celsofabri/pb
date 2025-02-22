@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `pb`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.priscilabatistao.com`
   },
   plugins: [{
     resolve: 'gatsby-source-contentful',
@@ -12,10 +12,14 @@ module.exports = {
       "accessToken": "B3vv0xJQYa8JoF0J_1PBwua88aK2300exHOyiGg27dQ",
       "spaceId": "festoqeh0hmb"
     }
-  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-google-gtag", "gatsby-plugin-sitemap", {
+  }, {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
+    },
+    resolve: 'gatsby-plugin-google-gtag',
+    options: {
+      trackingIds: ["G-XXXXXXXXXX"]
     }
-  }]
+  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sitemap", "gatsby-plugin-styled-components" ]
 };
