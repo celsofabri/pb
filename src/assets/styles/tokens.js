@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+export const colors = {
+  white: "#ffffff",
+  black: "#000000",
+};
 
-export const Wrapper = styled.div`
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 16px 32px;
-`;
+// export const fonts = {
+// }
