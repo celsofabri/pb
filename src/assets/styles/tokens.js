@@ -3,5 +3,6 @@ export const colors = {
   black: '#000000'
 };
 
-// export const fonts = {
-// }
+export const fonts = {
+  primary: "'Montserrat', sans-serif"
+};
