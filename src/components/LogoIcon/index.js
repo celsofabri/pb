@@ -6,8 +6,8 @@ const isValidHex = (color) => /^#([0-9A-F]{3}){1,2}$/i.test(color);
 
 const LogoIcon = ({ width, height, color }) => {
   const fillColor = isValidHex(color) ? color : colors.black;
-  const fillWidth = width ? width : "auto";
-  const fillHeight = height ? height : "auto";
+  const fillWidth = width ? width : 'auto';
+  const fillHeight = height ? height : 'auto';
 
   return (
     <StyledLogoIcon>
@@ -17,7 +17,11 @@ const LogoIcon = ({ width, height, color }) => {
         height={fillHeight}
         viewBox="0 0 369.426 739.977"
       >
-        <g id="pb" transform="translate(-853.464 -292.574)" fill={fillColor}>
+        <g
+          id="pb"
+          transform="translate(-853.464 -292.574)"
+          fill={fillColor}
+        >
           <path
             id="Caminho_7"
             data-name="Caminho 7"

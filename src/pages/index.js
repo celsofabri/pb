@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <Wrapper>
       <Header>
-        <LogoIcon width={"32px"} />
+        <LogoIcon width={'32px'} />
       </Header>
     </Wrapper>
   );

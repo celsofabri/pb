@@ -62,7 +62,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,json,cssmd}": [
+    "**/*.{js,jsx,ts,tsx,json,css,md}": [
       "npm run format"
     ]
   }
